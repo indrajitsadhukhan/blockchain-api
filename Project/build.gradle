@@ -1,0 +1,19 @@
+plugins {
+  id "org.web3j.openapi" version "4.8.1"
+}
+
+group 'com.tutorial'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+// For more options, check: https://github.com/web3j/web3j-openapi-gradle-plugin
+web3j {
+    generatedPackageName = 'com.tutorial'
+    addressBitLength = 160
+    openapi {
+        contextPath = 'HelloworldProject'
+    }
+}

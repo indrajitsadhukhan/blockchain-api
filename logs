@@ -1,0 +1,35 @@
+
+> Configure project :
+
+The 'org.jetbrains.kotlin.platform.*' plugins are deprecated and will no longer be available in Kotlin 1.4.
+Please migrate the project to the 'org.jetbrains.kotlin.multiplatform' plugin.
+See: https://kotlinlang.org/docs/reference/building-mpp-with-gradle.html
+
+> Task :nodeSetup
+> Task :npmSetup SKIPPED
+> Task :resolveSolidity
+
+> Task :npmInstall
+npm notice created a lockfile as package-lock.json. You should commit this file.
+up to date in 1.113s
+found 0 vulnerabilities
+
+
+> Task :compileSolidity
+Compiler run successful. Artifact(s) can be found in directory build/resources/main/solidity.
+
+> Task :generateContractWrappers
+Generating com.tutorial.wrappers.Mortal ... File written to C:\0000\Dev\Blockchain\BlockchainApi\HelloworldProject\build\generated\sources\web3j\main\java
+
+Generating com.tutorial.wrappers.HelloWorld ... File written to C:\0000\Dev\Blockchain\BlockchainApi\HelloworldProject\build\generated\sources\web3j\main\java
+
+
+> Task :generateWeb3jOpenApi
+Generating Web3j-OpenAPI project ... Files written to C:\0000\Dev\Blockchain\BlockchainApi\HelloworldProject\build\generated\sources\web3j\main\kotlin
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 51s
+6 actionable tasks: 6 executed
